@@ -1,0 +1,28 @@
+@font-face {
+    src: url("Corleone.ttf");
+    font-family: Godfather;
+  }
+
+body {
+    font-family: Godfather;
+    text-align:center;
+}
+
+#header {
+    background: black;
+    background-size: cover;
+    height: 200px;
+}
+
+#title-quote {
+    padding-top: 150px;
+    color: white;
+
+}
+
+#hero {
+    padding-top: 50px;
+    display:flex;
+    justify-content:space-evenly;
+    background: linear-gradient(black,white);
+}
